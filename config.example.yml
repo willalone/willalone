@@ -1,8 +1,8 @@
-# Основные настройки
-username: "willalone"              
-name: "willalone"                   
-location: "Moskow"                   
-bio: "Frontend Developer | React & TypeScript" 
+profile:
+  name: "willalone"
+username: "willalone"                 
+location: "Moskow"        
+bio: "Frontend Developer | React & TypeScript"
 avatar: ""           
 
 sections:
