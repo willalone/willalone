@@ -1,12 +1,12 @@
-profile:
-  name: "willalone"
-  avatar: ""                          # автоматически подтянется из GitHub
-  bio: "Frontend Developer"
-  location: "Moskow"
-  website: ""
+username: "willalone"
+name: "willalone"
+location: "Russia"
+bio: "Frontend Developer | React & TypeScript"
+avatar: ""
+website: ""
 
 social:
-  github: "willalone"                  # твой ник
+  github: "willalone"
 
 sections:
   - "about"
