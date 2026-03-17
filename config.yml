@@ -1,25 +1,21 @@
-# Обязательное поле: твой GitHub username
 username: "willalone"
 
-# Основная информация о тебе
 profile:
-  name: "willalone"                     # Твоё отображаемое имя
-  tagline: "Frontend Developer"          # Краткая фраза
-  company: ""                            # Если есть
-  location: "Russia"                      # Можешь изменить
+  name: "willalone"
+  tagline: "Frontend Developer"
+  company: ""
+  location: "Russia"
   bio: "Создаю интерфейсы на React и TypeScript. Увлекаюсь анимациями и космосом 🚀"
   philosophy: "Чистый код и user experience — мои приоритеты."
 
-# Социальные сети (укажи свои, если хочешь)
 social:
-  email: ""                               # example@mail.com
-  linkedin: ""                             # username
-  website: ""                              # https://...
+  email: ""                     # укажи, если хочешь
+  linkedin: ""                   # укажи, если хочешь
+  website: ""                     # укажи, если хочешь
 
-# Три "спиральные руки" — твои основные направления
 galaxy_arms:
   - name: "Frontend Core"
-    color: "synapse_cyan"                  # можно менять цвета
+    color: "synapse_cyan"
     items:
       - React
       - TypeScript
@@ -37,16 +33,9 @@ galaxy_arms:
       - Vite
       - Jest
 
-# Проекты, которые покажешь (укажи свои репозитории)
-projects:
-  - repo: "willalone/my-awesome-project"   # замени на свои
-    arm: 0                                   # индекс руки (0,1,2)
-    description: "Краткое описание"
-  - repo: "willalone/another-project"
-    arm: 1
-    description: "Ещё один проект"
+# Пока проектов нет, но можно добавить позже. Оставляем пустым, чтобы не было ошибок.
+projects: []
 
-# Цветовая тема (можно оставить как есть или изменить hex)
 theme:
   background: "#0a0c10"
   text: "#e6edf3"
@@ -54,7 +43,6 @@ theme:
   accent2: "#bc8cff"
   accent3: "#f78166"
 
-# Какие метрики показывать
 stats:
   metrics:
     - commits
@@ -63,7 +51,6 @@ stats:
     - issues
     - repos
 
-# Настройки языков
 languages:
-  exclude: ["HTML", "CSS"]   # если не хочешь показывать эти
+  exclude: ["HTML", "CSS"]   # скроет эти языки из графика, если хочешь
   max_display: 8
