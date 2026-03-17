@@ -1,0 +1,69 @@
+# Обязательное поле: твой GitHub username
+username: "willalone"
+
+# Основная информация о тебе
+profile:
+  name: "willalone"                     # Твоё отображаемое имя
+  tagline: "Frontend Developer"          # Краткая фраза
+  company: ""                            # Если есть
+  location: "Russia"                      # Можешь изменить
+  bio: "Создаю интерфейсы на React и TypeScript. Увлекаюсь анимациями и космосом 🚀"
+  philosophy: "Чистый код и user experience — мои приоритеты."
+
+# Социальные сети (укажи свои, если хочешь)
+social:
+  email: ""                               # example@mail.com
+  linkedin: ""                             # username
+  website: ""                              # https://...
+
+# Три "спиральные руки" — твои основные направления
+galaxy_arms:
+  - name: "Frontend Core"
+    color: "synapse_cyan"                  # можно менять цвета
+    items:
+      - React
+      - TypeScript
+      - Redux
+  - name: "Styling & Animations"
+    color: "dendrite_violet"
+    items:
+      - CSS
+      - Tailwind
+      - Framer Motion
+  - name: "Tooling & Ecosystem"
+    color: "axon_amber"
+    items:
+      - Webpack
+      - Vite
+      - Jest
+
+# Проекты, которые покажешь (укажи свои репозитории)
+projects:
+  - repo: "willalone/my-awesome-project"   # замени на свои
+    arm: 0                                   # индекс руки (0,1,2)
+    description: "Краткое описание"
+  - repo: "willalone/another-project"
+    arm: 1
+    description: "Ещё один проект"
+
+# Цветовая тема (можно оставить как есть или изменить hex)
+theme:
+  background: "#0a0c10"
+  text: "#e6edf3"
+  accent1: "#58a6ff"
+  accent2: "#bc8cff"
+  accent3: "#f78166"
+
+# Какие метрики показывать
+stats:
+  metrics:
+    - commits
+    - stars
+    - prs
+    - issues
+    - repos
+
+# Настройки языков
+languages:
+  exclude: ["HTML", "CSS"]   # если не хочешь показывать эти
+  max_display: 8
